@@ -1,0 +1,337 @@
+@font-face {
+  font-family: "Athene";
+  src: url(../fonts/Athene.otf);
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+/*============== landing page- styling ==============*/
+/*~~~~ fixed top part styling ~~~~*/
+header div:first-of-type {
+  height: 1px;
+  width: 100%;
+  background-color: black;
+  margin-top: 15px;
+  position: fixed;
+}
+
+header p {
+  display: inline-block;
+  color: #002a5a;
+  font-family: "Open Sans";
+}
+
+header p:first-of-type {
+  position: fixed;
+  padding-left: 15%;
+  font-size: 16px;
+}
+
+header p:nth-of-type(2) {
+  text-align: right;
+  font-size: 16px;
+  position: fixed;
+  padding-left: 75%;
+  padding-right: 10%;
+}
+/*-------    -----------*/
+
+header {
+  background: #efe8d7;
+  background-position: 50% 73%;
+  height: 180vh;
+  background-size: 350px 550px;
+}
+
+h1 {
+  font-size: 6rem;
+  margin-bottom: 10px;
+
+  font-family: "Athene";
+}
+
+figure {
+  width: 350px;
+  height: 550px;
+  padding-top: 40px;
+  margin: auto;
+}
+
+img {
+  width: 350px;
+  height: 550px;
+}
+figure figcaption {
+  padding-top: 20px;
+  color: #002a5a;
+}
+figure figcaption span {
+  font-family: "Athene";
+}
+
+figure figcaption span:nth-of-type(2) {
+  font-family: "Open Sans";
+}
+
+/*~~~~~ headline ~~~~~~*/
+h1 {
+  color: #002a5a;
+  text-align: center;
+}
+
+div:nth-of-type(2) {
+  height: 1px;
+  width: 60%;
+  background-color: #282b29;
+  margin: auto;
+}
+hr {
+  height: 0.1px;
+  width: 60%;
+  background-color: #282b29;
+  margin: auto;
+}
+
+.model-section {
+  background-color: #deb873;
+  height: 500px;
+}
+.lol {
+  display: inline-block;
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  position: relative;
+
+  bottom: 45px;
+}
+
+/*============== Main/ Articles- styling =============*/
+/*~~~~~~~~ 1st section ~~~~~~~~*/
+
+body main section:first-of-type {
+  background: #f4c4c4;
+  padding-bottom: 100px;
+}
+
+section:first-of-type p {
+  font-family: "Open Sans";
+  width: 30%;
+  font-size: 15px;
+  padding-left: 65%;
+  line-height: 35px;
+}
+section:first-of-type h6 {
+  padding-top: 70px;
+  padding-left: 3%;
+  padding-bottom: 30px;
+}
+
+section:first-of-type img {
+  width: 150px;
+  height: 150px;
+  padding-left: 70%;
+  padding-top: 100px;
+}
+/*~~~~~~~~~ 2nd section ~~~~~~~~~*/
+
+body main section:nth-of-type(2) {
+  background: #e4a41cef;
+  padding-bottom: 60px;
+}
+
+section:nth-of-type(2) h6 {
+  text-align: right;
+  padding-top: 70px;
+  padding-bottom: 30px;
+  padding-right: 3.5%;
+  color: #7d2222;
+}
+
+body main section:nth-of-type(2) article:first-of-type {
+  background-image: url(../images/bg-marconatto-1.jpg);
+  background-color: #e4a41cef;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: 80% 80%;
+  height: 500px;
+  width: 100%;
+}
+
+section:nth-of-type(2) article:nth-of-type(2n-1) h3 {
+  padding-left: 30%;
+  padding-top: 150px;
+}
+
+section:nth-of-type(2) article:nth-of-type(2n) h3 {
+  text-align: right;
+  padding-right: 30%;
+
+  padding-top: 150px;
+}
+
+section:nth-of-type(2) h2 {
+  text-align: right;
+  color: #7d2222;
+}
+
+section:nth-of-type(2) p {
+  font-family: "Open Sans";
+  font-size: 15px;
+  color: #7d2222;
+  width: 27%;
+  padding-left: 5%;
+}
+
+body main section:nth-of-type(2) article:nth-of-type(2) {
+  background: url(../images/kathe_cover-1.jpg);
+  background-color: #e4a41cef;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: 20% 80%;
+  height: 500px;
+  width: 100%;
+}
+
+body main section:nth-of-type(2) article:nth-of-type(3) {
+  background: url(../images/bg-nicole-1.jpg);
+  background-color: #e4a41cef;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: 80% 80%;
+  height: 500px;
+  width: 100%;
+}
+
+body main section:nth-of-type(2) article:nth-of-type(4) {
+  background: url(../images/boa_cover-1.jpg);
+  background-color: #e4a41cef;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 600px;
+  background-position: 20% 80%;
+  height: 500px;
+  width: 100%;
+}
+/*==================== footer-styling ===================*/
+footer {
+  background-color: #efe8d7;
+  padding-bottom: 50px;
+}
+
+footer h2 {
+  color: #1d8883;
+  padding-top: 40px;
+}
+
+footer p {
+  color: #1d8883;
+  font-family: "Open Sans";
+  width: 25%;
+  padding-left: 40%;
+}
+
+footer ol li a {
+  color: #1d8883;
+  text-decoration: none;
+  line-height: 35px;
+}
+
+footer ol li a:hover {
+  text-decoration: underline;
+}
+
+footer ol {
+  text-align: right;
+  padding-right: 6%;
+  list-style: none;
+}
+footer h6 {
+  color: #1d8883;
+  padding-top: 70px;
+  padding-left: 3%;
+}
+
+/*======================================*/
+/*===========global styling================*/
+h6 {
+  margin: 0;
+}
+h2 {
+  font-size: 4rem;
+  margin: 0;
+  letter-spacing: 5px;
+}
+
+h2,
+h3 {
+  font-family: "Athene";
+}
+
+h3 {
+  color: #7d2222;
+  margin: 0;
+  font-size: 2.2rem;
+  font-weight: lighter;
+}
+
+section p {
+  margin: 0;
+}
+
+/*=================table=================*/
+table {
+  width: 80%;
+  padding-top: 100px;
+  padding-left: 30%;
+  margin-right: 0;
+  font-family: "Open Sans";
+}
+
+table tbody td:first-of-type,
+table tbody td:nth-of-type(2) {
+  padding-left: 0;
+}
+
+table tbody td:nth-of-type(3) {
+  padding-left: 60%;
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+table tbody td {
+  border-bottom: 1px solid;
+}
+
+table thead th {
+  padding-left: 2%;
+  border-bottom: solid 1px;
+}
+
+table tbody tr td {
+  padding-bottom: 40px;
+  padding-top: 40px;
+}
+
+table tbody td:nth-of-type(2) {
+  font-weight: bold;
+  padding-left: 3%;
+}
+
+table tbody td:first-of-type {
+  font-size: 0.7rem;
+}
+
+.lol {
+  display: inline-block;
+  width: 100px;
+  height: 1px;
+  background-color: black;
+  position: relative;
+
+  bottom: 45px;
+}
